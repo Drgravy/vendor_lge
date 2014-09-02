@@ -1,4 +1,4 @@
-ifneq ($(filter ls980,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),ls980)
 
 LOCAL_PATH := $(call my-dir)
 
